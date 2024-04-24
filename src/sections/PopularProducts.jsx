@@ -1,5 +1,6 @@
+// import { products } from "../constants";
+import { PopularProductCard } from "../components";
 import { products } from "../constants";
-
 const PopularProducts = () => {
   return (
     <section id="products" className="max-container">
@@ -13,10 +14,14 @@ const PopularProducts = () => {
         </p>
       </div>
 
-      <div>
-        {products.map((product) => 
-          <img src={} alt="" />
-        </>)}
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14 mt-16 justify-around">
+        {products.map((product) => (
+          <PopularProductCard key={product.name} {...product} />
+        ))}
+
+        {/* {products.map((product) => (
+          <PopularProductCard key={product.name} {...product} />
+        ))} */}
       </div>
       {/* <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14"></div> */}
     </section>
