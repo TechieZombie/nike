@@ -1,4 +1,4 @@
-import star from "../assets/icons/index";
+import star from "../assets/icons/index.js";
 
 //import shoes from "/src/assets/images/shoe5.svg";
 //import shoe4 from "../assets/images/index";
