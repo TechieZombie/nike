@@ -1,4 +1,4 @@
-import star from "/Users/zombie/Restart Again/nike/src/assets/icons/star.svg";
+import star from "../assets/icons/index";
 
 //import shoes from "/src/assets/images/shoe5.svg";
 //import shoe4 from "../assets/images/index";
