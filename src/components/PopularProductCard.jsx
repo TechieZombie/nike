@@ -1,4 +1,4 @@
-import star from "../assets/icons/index";
+import star from "../assets/icons";
 
 const PopularProductCard = ({ imgURL, name, price }) => {
   return (
