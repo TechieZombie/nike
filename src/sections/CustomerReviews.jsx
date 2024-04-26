@@ -1,5 +1,5 @@
-import ReviewCard from "../components/ReviewCard";
-import { reviews } from "../constants";
+import ReviewCard from "../components/index";
+import { reviews } from "../constants/index";
 
 const CustomerReviews = () => {
   return (
