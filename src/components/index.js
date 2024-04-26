@@ -5,4 +5,11 @@ import PopularProductCard from "./PopularProductCard";
 import ServiceCard from "./ServiceCard";
 import ReviewCard from "./ReviewCard";
 
-export { Button, Nav, ShoeCard, PopularProductCard, ServiceCard, ReviewCard };
+export default {
+  Button,
+  Nav,
+  ShoeCard,
+  PopularProductCard,
+  ServiceCard,
+  ReviewCard,
+};
